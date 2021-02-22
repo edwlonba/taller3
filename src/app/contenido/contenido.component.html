@@ -1,0 +1,49 @@
+
+    <div class="container"> 
+       
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="d-flex flex-row-reverse">
+              <h2>THE ARRIVALS</h2>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">  
+             
+              <div class="col-12 col-md-6">
+                <div class="d-flex flex-row-reverse">
+                  <img class="bg-dark" style="height: 500px; width: 300px;" src="assets/img/book.jpg"> 
+                </div>
+              </div>
+  
+              <div class="col-12 col-md-5">
+                  <div class="d-flex flex-column justify-content-between h-100">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo corporis est sunt itaque, recusandae ut dicta omnis corrupti expedita aut cumque eius fugit. Sed pariatur consequatur amet soluta repellat!
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptatum quo fugiat ipsam qui incidunt fuga, ducimus nemo ipsa accusamus praesentium facilis accusantium laborum quae asperiores nobis doloribus quas rerum.</p>
+                      <div>
+                          <p class="text-primary">Valor Unitario {{ book.unitValue }}</p>                         
+                         
+                          <p style="font-weight: bold;"> Cantidad: <input type="number" style="text-align:right;" name="cantidad" value="1"/></p>
+                          <hr style="width:100%;text-align:left;margin-left:0" />
+                          <div class="d-flex justify-content-between bd-highlight">
+                            <div>
+                                <p class="text-primary h5">Total {{ book.total }}</p>
+                            </div>
+                            <div>
+                                
+                                <button type="button" class="btn btn-primary btn-sm">
+                                  <span class="material-icons">shopping_cart</span>
+                                  <i>Añadir al Carrito</i>                                
+                                </button>                                
+                            </div>
+                          </div>    
+                        
+                        
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+  
+      </div>
